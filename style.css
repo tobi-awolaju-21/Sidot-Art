@@ -44,6 +44,7 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
+    height: 60px;
     top: 0px;
     width: calc(100vw - 20px);
     padding-top: 20px;
@@ -51,25 +52,21 @@ body{
     z-index: 3;
 }
 
-.basebar {
-  color:#ede8e6;
-  background-color: rgb(38, 38, 38);
-  padding: 8px 15px 15px 15px; /* Top, right, bottom, left */
-  height: 50vw;
-}
+
 
   .navbar-left, .navbar-right {
     display: flex;
     flex-direction: column;
   }
-  
+
 
 h1 {
     font-family: "CalibreSemibold";
-    font-size: clamp(2rem, 20vw, 3rem); /* Responsive font sizing */
+    font-size: clamp(3rem, 20vw, 4rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    margin-top: 150px;
+    margin-top: 60px;
+  
   }
 
   h2 {
@@ -78,14 +75,14 @@ h1 {
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
     color: #1d1d1d;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   h3 {
     font-family: "CalibreSemibold";
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    color: #1d1d1d;
+    color: #5d5d5d;
     font-size:25px;
   }
 
@@ -122,28 +119,41 @@ h1 {
   
   /*horizontal scrollable*/
   .container {
-    width: calc(100vw - 20px); /* Width of the viewport */
+    width:100%; /* Width of the viewport */
     overflow-x: scroll; /* Enable horizontal scrolling */
     overflow-y: hidden;
     white-space: nowrap; /* Prevent content from wrapping */
+    background-color: #1d1d1d;
   }
   
   .item {
     display: inline-block; /* Make items behave like inline elements */
-    width: calc(100vw - 20px); /* Set width of each item to the screen width */
+    width:75vw; /* Set width of each item to the screen width */
     height:50vw; /* Adjust height as needed */
     color:rgb(255, 255, 255);
-    background-color: #262626; /* Background color for items */
+    background-color: #323232; /* Background color for items */
     text-align: center; /* Center text within each item */
     line-height: 200px; /* Center content vertically (optional) */
   }
   
   .details{
-    width: 100px;
+    width: 60px;
     height: 30px;
     margin: 8px;
-    border-radius: 50px;
+    border-radius: 10px;
     border-width: 0px;
     color:#fff;
     background-color: rgb(40, 40, 40);
+  }
+
+  .basebar{
+    display: flex;
+  }
+
+  .link{
+    color: #fff;
+    padding: 15px;
+    margin:5px;
+    border-radius: 50px;
+    background-color: #00000063;
   }
