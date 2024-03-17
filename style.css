@@ -13,7 +13,7 @@
 
 
 body{
-   padding: 10px; 
+   padding: 0px; 
    background-color: #ede8e6;
 }
 
@@ -28,7 +28,12 @@ body{
     backdrop-filter: blur(10px); /* Apply the blur effect */
     z-index: 3;
 }
-  
+
+.basebar {
+  background-color: rgb(38, 38, 38);
+  padding: 8px 15px 15px 15px; /* Top, right, bottom, left */
+}
+
   .navbar-left, .navbar-right {
     display: flex;
     flex-direction: column;
