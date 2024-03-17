@@ -66,7 +66,7 @@ h1 {
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
     margin-top: 60px;
-  
+    line-height: 40px;
   }
 
   h2 {
