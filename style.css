@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "CalibreSemibold";
+    src: url("/fonts/CalibreSemibold.otf") format("opentype");
+  }
+
+
+  @font-face {
+    font-family: "SourceSerif4";  
+    src: url("/fonts/SourceSerif4.ttf") format("opentype");
+
+  }
+  
+
+
+body{
+   padding: 10px; 
+   background-color: #ede8d6;
+}
+
+h1 {
+    font-family: "CalibreSemibold";
+    font-size: clamp(2rem, 20vw, 3rem); /* Responsive font sizing */
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    margin-top: 100px;
+  }
+
+  p{
+    font-family: "SourceSerif4";
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    text-decoration: underline; /* Underline the text */
+    text-decoration-color: rgb(255, 196, 0); /* Set underline color to yellow */
+  }
+  
+
+  .video-container {
+    position: relative;
+    width: 100%; /* Set width to 100% of body */
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2px); /* Fill the container */
+    height: 100%; /* Fill the container */
+  }
