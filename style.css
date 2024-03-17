@@ -136,6 +136,10 @@ h1 {
     text-align: center; /* Center text within each item */
     line-height: 200px; /* Center content vertically (optional) */
   }
+
+  .item-img{
+    height: 50vw;
+  }
   
   .details{
     width: auto;
