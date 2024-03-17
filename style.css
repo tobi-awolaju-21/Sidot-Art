@@ -23,8 +23,8 @@ body{
   /* Desktop Styles (applied to screens wider than 768px, adjust as needed) */
   @media (min-width: 768px) {
     .shell {
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 20vw;
+      padding-right: 20vw;
     }
   }
   
