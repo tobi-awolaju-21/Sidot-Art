@@ -123,15 +123,15 @@ h1 {
     overflow-x: scroll; /* Enable horizontal scrolling */
     overflow-y: hidden;
     white-space: nowrap; /* Prevent content from wrapping */
-    background-color: #1d1d1d;
+    background-color: #ede8e6;
   }
   
   .item {
     display: inline-block; /* Make items behave like inline elements */
     width:75vw; /* Set width of each item to the screen width */
     height:50vw; /* Adjust height as needed */
-    color:rgb(255, 255, 255);
-    background-color: #323232; /* Background color for items */
+    color:rgb(0, 0, 0);
+    background-color: #ffffff; /* Background color for items */
     text-align: center; /* Center text within each item */
     line-height: 200px; /* Center content vertically (optional) */
   }
