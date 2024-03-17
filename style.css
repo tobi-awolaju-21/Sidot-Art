@@ -17,6 +17,24 @@ body{
    background-color: #ede8e6;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: calc(100vw - 40px);
+    padding-top: 20px;
+    background: /* Choose your desired background color here */;
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    z-index: 3;
+}
+  
+  .navbar-left, .navbar-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
 h1 {
     font-family: "CalibreSemibold";
     font-size: clamp(2rem, 20vw, 3rem); /* Responsive font sizing */
