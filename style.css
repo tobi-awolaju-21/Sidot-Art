@@ -45,7 +45,7 @@ body{
     justify-content: space-between;
     position: fixed;
     top: 0px;
-    width: calc(100vw - 40px);
+    width: calc(100vw - 20px);
     padding-top: 20px;
     backdrop-filter: blur(5px); /* Apply the blur effect */
     z-index: 3;
@@ -124,6 +124,7 @@ h1 {
   .container {
     width: calc(100vw - 20px); /* Width of the viewport */
     overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: hidden;
     white-space: nowrap; /* Prevent content from wrapping */
   }
   
