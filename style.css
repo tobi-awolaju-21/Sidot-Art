@@ -44,13 +44,6 @@ h1 {
     text-decoration: underline; /* Underline the text */
     text-decoration-color: rgb(255, 196, 0); /* Set underline color to yellow */
   }
-  
-  .focus{
-    background-color: rgb(255, 234, 164);;
-    padding: 0px;
-    margin: 0px;
-  }
-
   .video-container {
     position: relative;
     width: 100%; /* Set width to 100% of body */
