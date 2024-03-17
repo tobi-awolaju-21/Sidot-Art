@@ -139,10 +139,11 @@ h1 {
   }
   
   .details{
-    width: 150px;
+    width: 100px;
     height: 30px;
     margin: 8px;
-    border-radius: 5px;
+    border-radius: 50px;
     border-width: 0px;
-    background-color: rgb(255, 173, 74);
+    color:#fff;
+    background-color: rgb(40, 40, 40);
   }
