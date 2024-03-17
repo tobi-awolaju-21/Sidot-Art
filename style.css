@@ -19,11 +19,18 @@ body{
 
 h1 {
     font-family: "CalibreSemibold";
-    font-size: clamp(2rem, 20vw, 3rem); /* Responsive font sizing */
+    font-size: clamp(2rem, 20vw, 4rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    margin-top: 50px;
+    margin-top: 40px;
   }
+
+  h2 {
+    font-family: "CalibreSemibold";
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+  }
+
 
   p{
     font-family: "SourceSerif4";
