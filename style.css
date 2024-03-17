@@ -10,12 +10,35 @@
 
   }
   
-
-
 body{
-   padding: 0px; 
-   background-color: #ede8e6;
+  overflow-x: hidden;
+  background-color: #ede8e6; /* Light gray background */
 }
+
+  .shell {
+    padding: 0px; /* Remove default padding */
+   
+  }
+  
+  /* Desktop Styles (applied to screens wider than 768px, adjust as needed) */
+  @media (min-width: 768px) {
+    .shell {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+  
+  /* Mobile Styles (applied to screens narrower than 768px, adjust as needed) */
+  @media (max-width: 767px) {
+    .shell {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  
+
+
 
 .navbar {
     display: flex;
@@ -24,14 +47,15 @@ body{
     top: 0px;
     width: calc(100vw - 40px);
     padding-top: 20px;
-    background: /* Choose your desired background color here */;
-    backdrop-filter: blur(10px); /* Apply the blur effect */
+    backdrop-filter: blur(5px); /* Apply the blur effect */
     z-index: 3;
 }
 
 .basebar {
+  color:#ede8e6;
   background-color: rgb(38, 38, 38);
   padding: 8px 15px 15px 15px; /* Top, right, bottom, left */
+  height: 50vw;
 }
 
   .navbar-left, .navbar-right {
@@ -45,18 +69,29 @@ h1 {
     font-size: clamp(2rem, 20vw, 3rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    margin-top: 40px;
+    margin-top: 150px;
   }
 
   h2 {
     font-family: "CalibreSemibold";
+    font-size: clamp(1rem, 20vw, 2rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
+    color: #1d1d1d;
+    margin-top: 20px;
   }
 
+  h3 {
+    font-family: "CalibreSemibold";
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    color: #1d1d1d;
+    font-size:25px;
+  }
 
   p{
     font-family: "SourceSerif4";
+    font-size:large;
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
     margin-top:20px;
@@ -79,4 +114,34 @@ h1 {
     left: 0;
     width: calc(100% - 2px); /* Fill the container */
     height: 100%; /* Fill the container */
+  }
+
+
+
+
+  
+  /*horizontal scrollable*/
+  .container {
+    width: calc(100vw - 20px); /* Width of the viewport */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent content from wrapping */
+  }
+  
+  .item {
+    display: inline-block; /* Make items behave like inline elements */
+    width: calc(100vw - 20px); /* Set width of each item to the screen width */
+    height:50vw; /* Adjust height as needed */
+    color:rgb(255, 255, 255);
+    background-color: #262626; /* Background color for items */
+    text-align: center; /* Center text within each item */
+    line-height: 200px; /* Center content vertically (optional) */
+  }
+  
+  .details{
+    width: 150px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(255, 173, 74);
   }
