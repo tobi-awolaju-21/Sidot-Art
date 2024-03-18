@@ -126,7 +126,7 @@ h1 {
   
   /*horizontal scrollable*/
 .container {
-  width: 100%; /* Width of the viewport */
+  width: 99%; /* Width of the viewport */
   overflow-x: scroll; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Prevent content from wrapping */
   white-space: nowrap; /* Prevent content from wrapping */
