@@ -130,7 +130,7 @@ h1 {
   overflow-x: scroll; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Prevent content from wrapping */
   white-space: nowrap; /* Prevent content from wrapping */
-  background-color: #ede8e6;
+  background-color: #000000;
 }
 
   
