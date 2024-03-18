@@ -9,6 +9,13 @@
     src: url("/fonts/SourceSerif4.ttf") format("opentype");
 
   }
+
+  @font-face {
+    font-family: "BagelFatOne";  
+    src: url("./fonts/BagelFatOne-Regular.ttf") format("opentype");
+
+  }
+  
   
 body{
   overflow-x: hidden;
@@ -44,11 +51,11 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    height: 60px;
+    height: auto;
     top: 0px;
     width: calc(100vw - 20px);
     padding-top: 20px;
-    backdrop-filter: blur(5px); /* Apply the blur effect */
+    backdrop-filter: blur(8px); /* Apply the blur effect */
     z-index: 3;
 }
 
@@ -65,7 +72,7 @@ h1 {
     font-size: clamp(3rem, 20vw, 4rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    margin-top: 70px;
+    margin-top: 85px;
     line-height: 40px;
   }
 
