@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "CalibreSemibold";
+    src: url("/fonts/CalibreSemibold.otf") format("opentype");
+  }
+
+
+  @font-face {
+    font-family: "SourceSerif4";  
+    src: url("/fonts/SourceSerif4.ttf") format("opentype");
+
+  }
+
+  @font-face {
+    font-family: "BagelFatOne";  
+    src: url("./fonts/BagelFatOne-Regular.ttf") format("opentype");
+
+  }
+  
+  
+body{
+  overflow-x: hidden;
+  background-color: #ede8e6; /* Light gray background */
+}
+
+  .shell {
+    padding: 0px; /* Remove default padding */
+   
+  }
+  
+  /* Desktop Styles (applied to screens wider than 768px, adjust as needed) */
+  @media (min-width: 768px) {
+    .shell {
+      padding-left: 20vw;
+      padding-right: 20vw;
+    }
+  }
+  
+  /* Mobile Styles (applied to screens narrower than 768px, adjust as needed) */
+  @media (max-width: 767px) {
+    .shell {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: auto;
+    top: 0px;
+    width: calc(100vw - 20px);
+    padding-top: 20px;
+    backdrop-filter: blur(8px); /* Apply the blur effect */
+    z-index: 3;
+}
+
+
+
+  .navbar-left, .navbar-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+h1 {
+    font-family: "CalibreSemibold";
+    font-size: clamp(3rem, 20vw, 4rem); /* Responsive font sizing */
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    margin-top: 85px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-family: "CalibreSemibold";
+    font-size: clamp(1rem, 20vw, 2rem); /* Responsive font sizing */
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    color: #1d1d1d;
+    margin-top: 50px;
+  }
+
+  h3 {
+    font-family: "CalibreSemibold";
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    color: #5d5d5d;
+    font-size:25px;
+  }
+
+  p{
+    font-family: "SourceSerif4";
+    font-size:large;
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    text-decoration: underline; /* Underline the text */
+    text-decoration-color: rgb(255, 196, 0); /* Set underline color to yellow */
+  }
+  .video-container {
+    position: relative;
+    width: 100%; /* Set width to 100% of body */
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 2px); /* Fill the container */
+    height: 100%; /* Fill the container */
+  }
+
+
+
+
+  
+  /*horizontal scrollable*/
+.container {
+  width: 99%; /* Width of the viewport */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Prevent content from wrapping */
+  white-space: nowrap; /* Prevent content from wrapping */
+  background-color: #000000;
+}
+
+  
+  .item {
+    display: inline-block; /* Make items behave like inline elements */
+    width:75vw; /* Set width of each item to the screen width */
+    height:50vw; /* Adjust height as needed */
+    color:rgb(0, 0, 0);
+    background-color: #ffffff; /* Background color for items */
+    text-align: center; /* Center text within each item */
+    line-height: 200px; /* Center content vertically (optional) */
+  }
+
+  .item-img{
+    height: 50vw;
+  }
+  
+  .details{
+    width: auto;
+    height: 30px;
+    margin: 8px;
+    border-radius: 50px;
+    border-width: 0px;
+    color:#fff;
+    background-color: rgb(40, 40, 40);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .details2{
+    width: auto;
+    height: 30px;
+    margin: 8px;
+    border-radius: 50px;
+    border-width: 0px;
+    color:#fff;
+    background-color: rgb(27, 163, 122);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .basebar{
+    display: flex;
+  }
+
+  .link{
+    color: #000000;
+    padding: 15px;
+    margin:5px;
+    border-radius: 50px;
+    background-color: #0000001e;
+  }
