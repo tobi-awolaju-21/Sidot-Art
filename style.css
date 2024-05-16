@@ -19,7 +19,7 @@
   
 body{
   overflow-x: hidden;
-  background-color: #ede8e6; /* Light gray background */
+  background-color: #aa6dff; /* Light gray background */
 }
 
   .shell {
@@ -30,8 +30,8 @@ body{
   /* Desktop Styles (applied to screens wider than 768px, adjust as needed) */
   @media (min-width: 768px) {
     .shell {
-      padding-left: 20vw;
-      padding-right: 20vw;
+      padding-left: 10vw;
+      padding-right: 10vw;
     }
   }
   
@@ -72,8 +72,9 @@ h1 {
     font-size: clamp(3rem, 20vw, 4rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    margin-top: 85px;
+    margin-top: 110px;
     line-height: 40px;
+    color:#fff
   }
 
   h2 {
@@ -81,7 +82,7 @@ h1 {
     font-size: clamp(1rem, 20vw, 2rem); /* Responsive font sizing */
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    color: #1d1d1d;
+    color: #ffffff;
     margin-top: 50px;
   }
 
@@ -89,7 +90,7 @@ h1 {
     font-family: "CalibreSemibold";
     padding: 0; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
-    color: #5d5d5d;
+    color: #ffffff;
     font-size:25px;
   }
 
@@ -100,15 +101,17 @@ h1 {
     margin: 0; /* Shorthand for margin: 0px; */
     margin-top:20px;
     margin-bottom: 20px;
+    color:#fff;
   }
   
   .underline {
     text-decoration: underline; /* Underline the text */
-    text-decoration-color: rgb(255, 196, 0); /* Set underline color to yellow */
+    text-decoration-color: rgb(255, 0, 195); /* Set underline color to yellow */
   }
   .video-container {
     position: relative;
     width: 100%; /* Set width to 100% of body */
+    background-color: #242424;
     padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
   }
   
@@ -130,16 +133,18 @@ h1 {
   overflow-x: scroll; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Prevent content from wrapping */
   white-space: nowrap; /* Prevent content from wrapping */
-  background-color: #000000;
+  background-color:#aa6dff;
 }
 
   
   .item {
+    margin: 2.5px;
     display: inline-block; /* Make items behave like inline elements */
     width:75vw; /* Set width of each item to the screen width */
-    height:50vw; /* Adjust height as needed */
+    height:auto; /* Adjust height as needed */
     color:rgb(0, 0, 0);
-    background-color: #ffffff; /* Background color for items */
+    background-color: #242424;
+    ; /* Background color for items */
     text-align: center; /* Center text within each item */
     line-height: 200px; /* Center content vertically (optional) */
   }
@@ -148,38 +153,8 @@ h1 {
     height: 50vw;
   }
   
-  .details{
-    width: auto;
-    height: 30px;
-    margin: 8px;
-    border-radius: 50px;
-    border-width: 0px;
-    color:#fff;
-    background-color: rgb(40, 40, 40);
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .details2{
-    width: auto;
-    height: 30px;
-    margin: 8px;
-    border-radius: 50px;
-    border-width: 0px;
-    color:#fff;
-    background-color: rgb(27, 163, 122);
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 
   .basebar{
     display: flex;
   }
 
-  .link{
-    color: #000000;
-    padding: 15px;
-    margin:5px;
-    border-radius: 50px;
-    background-color: #0000001e;
-  }

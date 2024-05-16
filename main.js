@@ -1,10 +1,10 @@
 
-const companies = ["Sportify", "Cola", "NBA", "youtube", "Blizzered"];
+const companies = ["Monad", "A kid called beast", "Cola", "Redbull", "Pipeline"];
 let currentIndex = 0;
 
 function rotateText() {
   const textElement = document.getElementById("rotatingText");
-  textElement.textContent = `Drew for ${companies[currentIndex]}...`;
+  textElement.textContent = `My Arts   ${companies[currentIndex]}...`;
   currentIndex = (currentIndex + 1) % companies.length;
 }
 

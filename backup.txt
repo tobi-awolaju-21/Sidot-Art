@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff"> <!-- Set your desired color code here -->
+  <title>Sidot art</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+      <h3 style=" font-family:BagelFatOne; color:rgb(0, 0, 0);">Sidot</h3>
+      <h3 style=" font-family:BagelFatOne; color:rgb(252, 118, 0);" >Art</h3>
+    </div>
+  
+
+    
+    <div class="navbar-right">
+      <h3 id="rotatingText">Drew for Sportify...</h3>
+    </div>
+
+
+
+
+
+  </div>
+  <div class="shell">
+    <h1>Hyper Creative Since Age <span class="underline">Four<v\/span></h1>
+    <p> I'm an Artist from Nigeria with Significant 4+ of years of experience in
+      Enviroment and Characther Design,Open source Illustions, 
+      Animation,Game Asset Design,UI/UX Design, NFT Design and Frontend Development.
+    </p>
+    
+
+    <video class="video-container" controls autoplay loop>
+      <source src="./images/Screen_Recording_20240117_091002~2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+
+    <div style="display: flex;">
+      <p> A compilation of my Charctherconcept arts and sheet over the years</p>
+    </div>
+
+  
+  <h2>Characther Concepts KEKEKEKKEKEKEKEE and <span class="underline">Enviroment</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/character_concept1.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/character_concept2.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/character_concept3.jpg"> </div>
+  </div>
+  
+
+  <div style="display: flex;">
+    <p> A compilation of my Charctherconcept arts and sheet over the years
+    <button class="details">Open</button></p>
+  </div>
+
+ 
+ 
+  
+  
+  <h2>Illustrations and Asset <span class="underline">Libaries</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/illustration1.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/illustration2.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/illustration3.jpg"> </div>
+  </div>
+  
+<div style="display: flex;">
+  <p> A compilation of my Illustration and opensource asset libaries over the years
+  <button class="details">Open</button></p>
+</div>
+  
+  
+  
+  <h2>Animations and <span class="underline">VJ loops</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/vj_loop1.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/vj_loop2.jpg"> </div>
+    <div class="item"> <img class="item-img" src="./images/vj_loop3.jpg"> </div>
+  </div>
+  
+c
+<div style="display: flex;">
+    <p> A compilation of my 2d/3d animations and VJ loops  over the years
+      <button class="details">Open</button></p>
+  </div>
+    
+
+
+  
+  
+  <h2>Game asset designed for <span class="underline">Clans</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/game_asset1.png"> </div>
+    <div class="item"> <img class="item-img" src="./images/game_asset2.png"> </div>
+    <div class="item"> <img class="item-img" src="./images/game_asset3.png"> </div>
+  </div>
+  
+
+  <div style="display: flex;">
+    <p> Top down town World building strategy game
+    <button class="details2">Play Demo</button></p>
+  </div>
+    
+
+
+  <h2>UI | UX design and <span class="underline">Software projects</span></h2>
+ 
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/game_ui1.webp"> </div>
+    <div class="item"> <img class="item-img" src="./images/game_ui2.webp"> </div>
+    <div class="item"> <img class="item-img" src="./images/game_ui31.webp"> </div>
+  </div>
+  
+
+  <div style="display: flex;">
+  <p>50+ ui designs from crossplatfrom apps to game hud
+    <button class="details">Dribbles</button></p>
+  </div>
+          
+
+    <h2 class="underline" >Contact</h2>
+    <div class="basebar">
+
+      <a class="link" href="https://twitter.com/sidotart">
+        X Twitter</a>
+        <a class="link" href="https://www.youtube.com/@sidotarts">
+          Youtube</a>
+          <a class="link" href="https://github.com/tobi-awolaju-21">
+            GitHub</a>
+      </div>
+      
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
