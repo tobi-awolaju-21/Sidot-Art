@@ -93,7 +93,7 @@ h1 {
 
   h4 {
     font-family: "CalibreSemibold";
-    padding: 0; /* Shorthand for padding: 0px; */
+    padding:20px; /* Shorthand for padding: 0px; */
     margin: 0; /* Shorthand for margin: 0px; */
     color: #ffffff;
     font-size:20px;
