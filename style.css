@@ -43,9 +43,6 @@ body{
     }
   }
 
-  
-
-
 
 .navbar {
     display: flex;
@@ -58,7 +55,6 @@ body{
     backdrop-filter: blur(8px); /* Apply the blur effect */
     z-index: 3;
 }
-
 
 
   .navbar-left, .navbar-right {
@@ -94,6 +90,15 @@ h1 {
     font-size:25px;
   }
 
+
+  h4 {
+    font-family: "CalibreSemibold";
+    padding: 0; /* Shorthand for padding: 0px; */
+    margin: 0; /* Shorthand for margin: 0px; */
+    color: #ffffff;
+    font-size:20px;
+  }
+
   p{
     font-family: "SourceSerif4";
     font-size:large;
@@ -122,10 +127,6 @@ h1 {
     width: calc(100% - 2px); /* Fill the container */
     height: 100%; /* Fill the container */
   }
-
-
-
-
   
   /*horizontal scrollable*/
 .container {
@@ -135,7 +136,6 @@ h1 {
   white-space: nowrap; /* Prevent content from wrapping */
   background-color:#aa6dff;
 }
-
   
   .item {
     margin: 2.5px;
