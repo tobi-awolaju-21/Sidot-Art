@@ -117,15 +117,6 @@ h1 {
     position: relative;
     width: 100%; /* Set width to 100% of body */
     background-color: #242424;
-    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
-  }
-  
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 2px); /* Fill the container */
-    height: 100%; /* Fill the container */
   }
   
   /*horizontal scrollable*/
