@@ -19,4 +19,3 @@ document.getElementById("rotatingText").addEventListener("click", function() {
 // Optional: Improve accessibility by adding an aria-label
 document.getElementById("rotatingText").setAttribute("aria-label", "Company Rotator");
 
-
