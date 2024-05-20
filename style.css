@@ -22,6 +22,8 @@ body{
   background-color: #aa6dff; /* Light gray background */
 }
 
+
+
   .shell {
     padding: 0px; /* Remove default padding */
    
@@ -118,10 +120,28 @@ h1 {
     width: 100%; /* Set width to 100% of body */
     background-color: #242424;
   }
+
+  @media only screen and (max-width: 768px) {
+    .video-container {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for desktop devices */
+  @media only screen and (min-width: 769px) {
+    .video-container {
+   width: 70vh;
+    }
+  
+  }
+
+
+
   
   /*horizontal scrollable*/
 .container {
-  width: 99%; /* Width of the viewport */
+  width: 99%; 
+  height: auto;/* Width of the viewport */
   overflow-x: scroll; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Prevent content from wrapping */
   white-space: nowrap; /* Prevent content from wrapping */
@@ -148,3 +168,23 @@ h1 {
     display: flex;
   }
 
+
+  .daddy{
+padding: 0px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .daddy {
+      padding: 0px;
+    }
+  }
+  
+  /* Media query for desktop devices */
+  @media only screen and (min-width: 769px) {
+    .daddy {
+  padding: 0px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+    }
+  
+  }

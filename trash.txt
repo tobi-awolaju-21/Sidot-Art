@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff"> <!-- Set your desired color code here -->
+  <title>Sidot art</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+      <h3 style=" font-size: 40px; font-family:BagelFatOne; color:rgb(255, 255, 255);">Kawaii</h3>
+      <h3 style="font-size: 30px; font-family:BagelFatOne; color:rgb(255, 0, 195);" >Sidot Art</h3>
+    </div>
+  
+
+    
+    <div class="navbar-right">
+      <h3 style="color:rgb(255, 255, 255);" id="rotatingText">My Arts for All...</h3>
+    </div>
+
+
+
+
+
+  </div>
+  <div class="shell">
+    <h1>Hyper Creative from day <span class="underline">One<v\/span></h1>
+   <br>
+   <br>
+   
+
+   <video id="myVideo" class="video-container" controls autoplay loop muted>
+     <source src="./images/INTRO.mp4" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+   
+  
+
+    <h4 id="intro">
+
+      Kawaii, I'm Nigeria-based Artist.
+      I supply communities with 
+      all type of original illustrations needed to set the culture in their community
+      and keep their memebers engaged. from Splash art to discord stickers to daily arts to accompany your GM posts, I got you covered.
+    </h4>
+    
+
+  <h2>Splash <span class="underline">Illustrations</span></h2>
+  <div class="container">
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+  </div>
+  
+
+
+  <h2>Aimation <span class="underline">Loops</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+  </div>
+
+ 
+ 
+  
+  
+  <h2>Discord <span class="underline">stickers</span></h2>
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+  </div>
+
+  <h2>Social media <span class="underline">Contents</span></h2>
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+   <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+</div>
+  
+  
+  <h2>Memes and<span class="underline">Memes</span></h2>
+  
+  <div class="container">
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+    <div class="item">  <img class="item-img" src="./images/banner.png"> </div>
+  </div>
+  
+</div>
+
+
+<h2 class="underline" >Let's talk</h2>
+  
+<script src="main.js"></script>
+</body>
+
+</html>
